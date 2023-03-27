@@ -228,18 +228,6 @@
     }
   });
 
-  function zoomImage() {
-    var overlay = document.getElementById("overlay");
-    var zoomed = document.getElementById("zoomed");
-    overlay.style.display = "block";
-    zoomed.style.display = "block";
-  }
-  
-  document.getElementById("overlay").addEventListener("click", function(){
-    this.style.display = "none";
-    document.getElementById("zoomed").style.display = "none";
-  });
-
   /**
    * Initiate gallery lightbox 
    */
