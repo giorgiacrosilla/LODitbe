@@ -166,6 +166,9 @@ h6 {
 /**
 * Desktop Navigation 
 */
+.navbar {
+  margin-bottom: 0;
+} 
 
 .navbar ul {
   margin: 0;
