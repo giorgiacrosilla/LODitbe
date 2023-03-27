@@ -166,15 +166,14 @@ h6 {
 /**
 * Desktop Navigation 
 */
-.navbar {
-  font-family: "Poppins", sans-serif;
-}
+
 .navbar ul {
   margin: 0;
   padding: 0;
   display: flex;
   list-style: none;
   align-items: center;
+  font-family: "Poppins", sans-serif;
 }
 
 .navbar li {
