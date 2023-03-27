@@ -464,7 +464,7 @@ h6 {
 #hero h1 {
   text-align: center;
   margin: 0;
-  font-size: 80px;
+  font-size: 70px;
   font-weight: 700;
   line-height: 60px;
   color: #fff;
@@ -472,9 +472,10 @@ h6 {
 
 #hero h1 span {
   color: #cda45e;
+  font-size: 80px;
 }
 
-#hero h2 {
+#hero p {
   text-align: center;
   color: #eee;
   margin-bottom: 10px 0 0 0;
