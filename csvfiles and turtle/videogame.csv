@@ -1,0 +1,12 @@
+Subject, predicate, object
+The Beatles:Rock Band, vgo:hasPlayingArea, Savile Row 3
+The Beatles:Rock Band, rdf:type, Videogame
+The Beatles:Rock Band, vgo:hasGameGenre, RythmGame
+The Beatles:Rock Band, dc:Publisher, MTV Games
+The Beatles:Rock Band, dc:IDentifier, <IGDB 2693>
+The Beatles, vgo:isCharacter, The Beatles:Rock Band
+The Beatles:RockBand, vgo:ReleaseDate, <9/9/2009>
+The Beatles:RockBand, dc:Creator, Harmonix
+The Beatles:RockBand, vgo:hasAchievementInGame, Like a Million Suns
+The Beatles:RockBand, vgo:ReleaseDate, <9/9/2009>
+The Beatles:RockBand, vgo:ContentRating, <PEGI 12>

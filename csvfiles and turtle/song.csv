@@ -1,0 +1,18 @@
+subject,predicate,object
+Get Back, rdf:type, track
+Get Back,crm:P72_has_language,English
+Get Back,dc:title,Get Back
+Get Back,mo:duration,03:11
+Get Back,dbp:released,11/04/1969
+Get Back,dbp:aSide, "Don't Let Me Down"
+The Beatles,mo:collaborated_with,Billy Preston
+Get Back, dcterms:isPartOf, Rooftop Concert
+Get Back,dcterms:creator,The Beatles
+Get Back,dcterms:creator,Billy Preston
+Get Back,schema:genre,rock
+Get Back,dbp:writer,John Lennon
+Get Back,dbp:writer,Paul McCartney
+"Tucson,Arizona", dc:IsReferencedBy, Get Back
+Get Back,dbo:previousWork,Let It Be
+Get Back, dbo:recordedIn, Savile Row 3
+Get Back, dcterms:hasIdentifier, beaf49d4-c864-4141-9ce0-162e16778d87

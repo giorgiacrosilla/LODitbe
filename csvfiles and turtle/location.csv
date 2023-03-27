@@ -1,0 +1,8 @@
+Subject, predicate, object
+Savile Row 3, rdf:type, building
+Savile Row 3, gn:lat, 51°30'37.5"N
+Savile Row 3,gn:lat, 0°8'23.0"W
+Savile Row 3, gn:locatedIn, London
+Savile Row 3, gn:parentCountry, United Kingdom
+Savile Row 3, gn: map, map link
+Apple Corp, gn:locatedIn, Savile Row 3

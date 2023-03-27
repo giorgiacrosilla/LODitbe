@@ -1,0 +1,12 @@
+Subject, predicate, object
+Rooftop Concert, mo:performance_Of, Let It Be
+Rooftop Concert, rdf:type, Concert
+Rooftop Concert, mo:Performer, Beatles
+Rooftop Concert, mo:Performer, Billy Preston
+Rooftop concert, dc:date, <30/1/1969>
+Rooftop Concert, dc:coverage, Savile Row 3
+Rooftop Concert, vgo:isEventInGame, The Beatles:RockBand
+Rooftop Concert, pmo:inspirationFor, Let It Be (film)
+Rooftop Concert, pmo:inspirationFor, Get Back (libro)
+George Martin, mo:engineered, Rooftop Concert
+Get Back, dcterms:IsPartOf, Rooftop Concert

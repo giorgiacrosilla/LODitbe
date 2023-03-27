@@ -1,0 +1,12 @@
+subject, predicate, object
+Let It Be,mo:published_as, Let It Be (vinyl record)
+Let It Be,mo:track_count, 12 
+Let It Be,rdf:type, vinyl record
+Let It Be,crm:P72_has_language, english
+Let It Be,dbp:released, 8/5/1970
+Let It Be,mo:duration, 35:15
+Let It Be,dcterms:creator, The Beatles
+Let It Be,dbo:recordLabel, Apple Records
+Let It Be,dcterms:medium, vinyl
+Let It Be,schema:genre,rock
+Let It Be,dcterms:hasIdentifier, [r1088126]

@@ -1,0 +1,50 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix mo: <http://purl.org/ontology/mo/>.
+@prefix schema: <http://schema.org/>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dbp: <http://dbpedia.org/property/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix viaf: <http://viaf.org/viaf/>.
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix gn: <http://www.geonames.org/ontology#>.
+@prefix vgo: <http://purl.org/net/VideoGameOntology#>.
+@prefix rico: <https://www.ica.org/standards/RiC/ontology#>.
+@prefix provoc:<http://ns.inria.fr/provoc/>.
+@prefix rdau: <http://rdaregistry.info/Elements/u/>.
+@prefix ma: <http://www.w3.org/ns/ma-ont#>.
+@prefix lo: <https://w3id.org/italia/onto/CLV/>.
+@prefix rda: <http://www.rdaregistry.info/>.
+@prefix rdac: <http://rdaregistry.info/Elements/c/>.
+@prefix rdai: <http://rdaregistry.info/Elements/i/>.
+@prefix pmo: <https://bioportal.bioontology.org/ontologies/PMO>.
+@prefix aes: <https://www.loc.gov/standards/amdvmd/audioMD.xsd>.
+
+
+<https://loditbe.it/event/Rooftop> a mo:performance;
+    mo:performer <https://loditbe.it/group/TheBeatles>;
+    mo:performer <https://loditbe.it/person/BillyPreston>;
+    dcterms:date <30/01/1969>;
+    vgo:isEventinGame <https://loditbe.it/Game/TheBeatlesRockBand>;
+    pmo:inspirationFor <https://loditbe.it/Film/LetItBe>;
+    pmo:inspirationFor <https://loditbe.it/Book/GetBack>;
+    mo:performance_Of <https://loditbe.it/Work/LetItBe>;
+    dcterms:coverage <https://loditbe.it/location/SavileRow>.
+
+<https://loditbe.it/person/GeorgeMartin> a foaf:agent;
+    mo:engineered <https://loditbe.it/event/Rooftop>;
+    owl:sameAs viaf:100987436.
+<https://loditbe.it/group/TheBeatles> a foaf:Group;
+    owl:sameAs viaf:141205608.
+<https://loditbe.it/location/SavileRow> a lo:address;
+    owl:sameAs viaf:315146363.
+<https://loditbe.it/Game/TheBeatlesRockBand> a schema:Videogame;
+    owl:sameAs <https://www.igdb.com/games/the-beatles-rock-band>.
+
+
+
+
+
+
