@@ -166,7 +166,9 @@ h6 {
 /**
 * Desktop Navigation 
 */
-
+.navbar {
+  font-family: "Poppins", sans-serif;
+}
 .navbar ul {
   margin: 0;
   padding: 0;
