@@ -858,9 +858,7 @@ th {
   margin-bottom: 0;
 }
  
-.specials .tab-content img {
-  max-width: fit-content;
-}
+
 @media (max-width: 992px) {
   .specials .nav-link {
     border: 0;
