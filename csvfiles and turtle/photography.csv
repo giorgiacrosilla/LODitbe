@@ -1,0 +1,10 @@
+Subject,predicate,object
+John Lennon; Paul McCartney, dcterms: type, photo, 
+John Lennon; Paul McCartney, dcterms: created, <1968>	
+John Lennon; Paul McCartney, dcterms: creator, Linda McCartney	
+John Lennon; Paul McCartney, schema: about, John Lennon	
+John Lennon; Paul McCartney, schema: about, Paul McCartney	
+John Lennon; Paul McCartney, crm:P43 has dimension, 18 1/4 in. x 12 3/8 in. (465 mm x 315 mm)
+John Lennon; Paul McCartney, dcterms: isReferencedBy, John Lennon; Paul McCartney
+Linda McCartney, dbp: spouse, Paul McCartney
+
