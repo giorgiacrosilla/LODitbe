@@ -1,2 +1,13 @@
-﻿Subject, predicate, object
-George Martin, schema: actor, Let it be (film)
+﻿s;p;o
+Let it be;ma:title;"""Let it be"""
+Let it be;ma:hasCreator;Anthony B. Richomond
+Let it be;ma:hasLanguage;english
+Let it be;ma:hasCreator;Neil Aspinall
+Let it be;ma:hasCreator;Tony Lenny
+Let it be;ma:date;May 20, 1970
+Let it be;ma:duration;1 hour 21 minutes
+Let it be;rdf:type;Movie
+Let it be;ma:hasRelateLocation;United Kingdom
+Let it be;ma:hasCreator;Michael Lindsay-Hogg
+Let it be;schema:genere;Interview
+Let it be;dcterms:coverage;Savile Row,3
