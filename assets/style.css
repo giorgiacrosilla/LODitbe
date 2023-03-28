@@ -960,6 +960,15 @@ th {
   background-color: #cda45e;
 }
 
+#e {
+  background: #1a1814;
+}
+
+#g {
+  background: #1a1814;
+}
+
+
 
 /*--------------------------------------------------------------
 # Footer
@@ -969,6 +978,7 @@ th {
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;
+  text-align: center;
 }
 
 #footer .footer-top {
@@ -1067,50 +1077,12 @@ th {
   color: #cda45e;
 }
 
-#footer .footer-top .footer-newsletter form {
-  margin-top: 30px;
-  background: #28251f;
-  padding: 6px 10px;
-  position: relative;
-  border-radius: 50px;
-  border: 1px solid #454035;
-}
-
-#footer .footer-top .footer-newsletter form input[type=email] {
-  border: 0;
-  padding: 4px;
-  width: calc(100% - 110px);
-  background: #28251f;
-  color: white;
-}
-
-#footer .footer-top .footer-newsletter form input[type=submit] {
-  position: absolute;
-  top: -1px;
-  right: -1px;
-  bottom: -1px;
-  border: 0;
-  background: none;
-  font-size: 16px;
-  padding: 0 20px 2px 20px;
-  background: #cda45e;
-  color: #fff;
-  transition: 0.3s;
-  border-radius: 50px;
-}
-
-#footer .footer-top .footer-newsletter form input[type=submit]:hover {
-  background: #d3af71;
-}
-
 #footer .copyright {
-  text-align: center;
   padding-top: 30px;
 }
 
 #footer .credits {
   padding-top: 10px;
-  text-align: center;
   font-size: 13px;
   color: #fff;
 }
