@@ -464,7 +464,7 @@ h6 {
   background: radial-gradient(#cda45e 50%, rgba(205, 164, 94, 0.4) 52%);
   border-radius: 50%;
   display: block;
-  position: relative;
+  position: fixed;
   overflow: hidden;
 }
 
