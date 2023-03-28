@@ -1,13 +1,13 @@
 ﻿subject, predicate, object
-"The Beatles:get back", rda:titleOfTheWork, "The Beatles: get back"
-"The Beatles:get back", rda:hasSellerAgent, Callaway
-"The Beatles:get back", rda:hasIdentifierForItem, "9,78094E+12"
-"The Beatles:get back", rda:identifierForTheManifestation, 935112960
-"The Beatles:get back", rda:languageOfTheContentExpression, english
+"The Beatles:Get Back", rda:titleOfTheWork, "The Beatles: Get Back"
+"The Beatles:Get back", rda:hasSellerAgent, Callaway
+"The Beatles:Get back", rda:hasIdentifierForItem, "9,78094E+12"
+"The Beatles:Get back", rda:identifierForTheManifestation, 935112960
+"The Beatles:Get back", rda:languageOfTheContentExpression, english
 "The Beatles:get back", rda:hasDateOfPublication, 2021
-"The Beatles:get back", rda:dimensionsManifestation, "9.85 x 1.5 x 11.88 inches"
-"The Beatles:get back", rda:extentOfTextManifestion, pages
-"The Beatles:get back", rda:formOfWork, book
-"The Beatles:get back", rda:hasGenre, Interview
-"The Beatles:get back",rda:hasAuthor,The Beatles
-George Martin, dcterms:contributor, "The Beatles: get back"
+"The Beatles:Get back", rda:dimensionsManifestation, "9.85 x 1.5 x 11.88 inches"
+"The Beatles:Get back", rda:extentOfTextManifestion, pages
+"The Beatles:Get back", rda:formOfWork, book
+"The Beatles:Get back", rda:hasGenre, Interview
+"The Beatles:Get back",rda:hasAuthor,The Beatles
+George Martin, dcterms:contributor, "The Beatles: Get back"
