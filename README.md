@@ -1,6 +1,6 @@
-# knowledgeorganization
+# knowledge organization
 
-ho inserito 1 collegamento nella fotografia (è conservata in museo) - grafo 2 -> serve tradurlo in ontologia per il 3
+
 
 migliorare turtle: controllare skos broader/narrower
 
