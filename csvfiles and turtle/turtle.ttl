@@ -5,6 +5,7 @@
 @prefix dbp: <http://dbpedia.org/property/>.
 @prefix dcterms: <http://purl.org/dc/terms/>.
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
 @prefix viaf: <http://viaf.org/viaf/>.
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/>.
@@ -22,6 +23,7 @@
 @prefix pmo: <https://bioportal.bioontology.org/ontologies/PMO>.
 @prefix aes: <https://www.loc.gov/standards/amdvmd/audioMD.xsd>.
 @prefix ulan: <http://vocab.getty.edu/ulan/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
 
 <https://loditbe.it/event/Rooftop> a mo:performance;
     mo:performer <https://loditbe.it/group/TheBeatles>;
@@ -34,14 +36,20 @@
     dcterms:coverage <https://loditbe.it/location/SavileRow>.
 
 <https://loditbe.it/person/GeorgeMartin> a foaf:agent;
+    rdfs:label "George Martin";
     mo:engineered <https://loditbe.it/event/Rooftop>;
-    owl:sameAs viaf:<http://viaf.org/viaf/100987436>.
+    owl:sameAs viaf:100987436.
 <https://loditbe.it/group/TheBeatles> a foaf:Group;
-    owl:sameAs viaf:<http://viaf.org/viaf/141205608>;
-    owl:sameAs ulan:<http://vocab.getty.edu/page/ulan/500372404>.
+    rdfs:label "The Beatles";
+    owl:sameAs viaf:141205608;
+    owl:sameAs ulan:500372404;
+    skos:broader "rock band".
 <https://loditbe.it/location/SavileRow> a lo:address;
-    owl:sameAs viaf:<http://viaf.org/viaf/315146363>.
+    rdfs:label "Savile Row";
+    owl:sameAs viaf:315146363;
+    skos:broader "street".
 <https://loditbe.it/Game/TheBeatlesRockBand> a schema:Videogame;
+    rdfs:label "The Beatles Rock Band";
     owl:sameAs <https://www.igdb.com/games/the-beatles-rock-band>.
 
 
