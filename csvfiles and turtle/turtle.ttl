@@ -21,7 +21,7 @@
 @prefix rdai: <http://rdaregistry.info/Elements/i/>.
 @prefix pmo: <https://bioportal.bioontology.org/ontologies/PMO>.
 @prefix aes: <https://www.loc.gov/standards/amdvmd/audioMD.xsd>.
-
+@prefix ulan: <http://vocab.getty.edu/ulan/>.
 
 <https://loditbe.it/event/Rooftop> a mo:performance;
     mo:performer <https://loditbe.it/group/TheBeatles>;
@@ -35,11 +35,12 @@
 
 <https://loditbe.it/person/GeorgeMartin> a foaf:agent;
     mo:engineered <https://loditbe.it/event/Rooftop>;
-    owl:sameAs viaf:100987436.
+    owl:sameAs viaf:<http://viaf.org/viaf/100987436>.
 <https://loditbe.it/group/TheBeatles> a foaf:Group;
-    owl:sameAs viaf:141205608.
+    owl:sameAs viaf:<http://viaf.org/viaf/141205608>;
+    owl:sameAs ulan:<http://vocab.getty.edu/page/ulan/500372404>.
 <https://loditbe.it/location/SavileRow> a lo:address;
-    owl:sameAs viaf:315146363.
+    owl:sameAs viaf:<http://viaf.org/viaf/315146363>.
 <https://loditbe.it/Game/TheBeatlesRockBand> a schema:Videogame;
     owl:sameAs <https://www.igdb.com/games/the-beatles-rock-band>.
 
