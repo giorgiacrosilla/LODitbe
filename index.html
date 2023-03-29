@@ -581,28 +581,21 @@
                     </thead>
                     <tbody>
                       <tr>
-                        <td>Publication date</td>
-                        <td>dcterms:issued</td>
-                        <td>&lt;release&gt; / &lt;date&gt;</td>
-                        <td>2.4.3 Date</td>
-                        <td>&lt;unitdate&gt;</td>
-                        <td>260$c Date of Publication</td>
-                        <td>&lt;originInfo&gt; / &lt;dateIssued&gt;</td>
-                        <td>crm:P4_has_time_span</td>
-                        <td>schema:datePublished</td>
-                        <td>Release Date</td>
-                      </tr>
-                      <tr>
-                        <td>Set in</td>
-                        <td>dc:date</td>
-                        <td>/</td>
-                        <td>2.4.7 Date Ranges</td>
-                        <td>&lt;daterange&gt; / &lt;unitdate&gt;</td>
-                        <td>/</td>
-                        <td>&lt;originInfo&gt; / &lt;dateOther&gt;</td>
-                        <td>crm:P81_ongoing_throughout</td>
-                        <td>schema:contentReferenceTime</td>
-                        <td>/</td>
+                        <td>The spatial or temporal topic of the resource,<br> spatial applicability of the resource,<br> or jurisdiction under which the resource is relevant.</td>
+                        <td>Coverage</td>
+                        <td>area</td>
+                        <td>country</td>
+                        <td>location</td>
+                        <td>Location Created, Location shown in the image</td>
+                        <td>identification.Info, Cited.Address,<br>
+                          identification.Info, Cited.Country,<br>
+                          identification.Info, Cited.PostalCode,<br>
+                          identification.Info, Cited.City.
+                        </td>
+                        <td>geo, addressCountry, location</td>
+                        <td>E53 Place</td>
+                        <td>rdaw:P10081</td>
+                        <td>formatLocation</td>
                       </tr>
                     </tbody>
                   </table>
@@ -631,173 +624,133 @@
                     </thead>
                     <tbody>
                       <tr>
-                        <td>Has id</td>
-                        <td>dc:identifier</td>
-                        <td>&lt;trackid&gt;</td>
-                        <td>2.1.3 Local Identifier</td>
-                        <td>&lt;unitid&gt;</td>
-                        <td>/</td>
-                        <td>&lt;identifier&gt;</td>
-                        <td>crm:P1_is_identified_by</td>
-                        <td>schema:identifier</td>
-                        <td>Object Identifier</td>
+                        <td>A name given to the resource.</td>
+                        <td>title</td>
+                        <td>title</td>
+                        <td>title</td>
+                        <td>title</td>
+                        <td>title</td>
+                        <td>identificationInfo.citation.title</td>
+                        <td>title</td>
+                        <td>E35 Title</td>
+                        <td>rdae:P20310, rdae:P20312 </td>
+                        <td>formatName</td>
                       </tr>
                       <tr>
-                        <td>Has format</td>
-                        <td>dc:format / dcterms:hasFormat</td>
-                        <td>&lt;trackformat&gt;</td>
-                        <td>2.5 Extent</td>
-                        <td>&lt;genreform&gt;</td>
+                        <td>An alternative name for the resource.</td>
+                        <td>Alternative</td>
+                        <td>alias</td>
                         <td>/</td>
-                        <td>&lt;typeOfResource&gt;</td>
                         <td>/</td>
-                        <td>schema:encodingFormat</td>
-                        <td>Media Type (Format)</td>
+                        <td>/</td>
+                        <td>/</td>
+                        <td>alternateName</td>
+                        <td>/</td>
+                        <td>rdam:P30131</td>
+                        <td>/</td>
                       </tr>
                       <tr>
-                        <td>Has title</td>
-                        <td>dc:title</td>
-                        <td>&lt;release&gt; / &lt;title&gt;</td>
-                        <td>2.3 Title</td>
-                        <td>&lt;title&gt;</td>
-                        <td>245 $a Title</td>
-                        <td>&lt;titleInfo&gt;</td>
-                        <td>crm:P102_has_title</td>
-                        <td>schema:name</td>
-                        <td>Title</td>
+                        <td>A topic of the resource.</td>
+                        <td>subject</td>
+                        <td>/</td>
+                        <td>/</td>
+                        <td>keyword</td>
+                        <td>person shown in the image, product shown in the image</td>
+                        <td>/</td>
+                        <td>about</td>
+                        <td>/</td>
+                        <td>rdaw:P10100</td>
+                        <td>/</td>
                       </tr>
                       <tr>
-                        <td>Language</td>
-                        <td>dc:language</td>
-                        <td>&lt;work&gt; / &lt;language-list&gt; / &lt;language&gt; /
-                          &lt;text-representationlanguage&gt;
+                        <td>The nature or genre of the resource.</td>
+                        <td>Type</td>
+                        <td>genre
                         </td>
-                        <td>4.5.2 Languages and Scripts of the Material</td>
-                        <td>&lt;language&gt;</td>
-                        <td>41 Language code</td>
-                        <td>&lt;language&gt;</td>
-                        <td>crm:P72_has_language</td>
-                        <td>schema:inLanguage</td>
-                        <td>Language</td>
+                        <td>genre, style</td>
+                        <td>genre</td>
+                        <td>genre</td>
+                        <td>/</td>
+                        <td>genre</td>
+                        <td>/</td>
+                        <td>rdae:P20001</td>
+                        <td>audioType</td>
                       </tr>
                       <tr>
-                        <td>Has subject</td>
-                        <td>dc:subject</td>
+                        <td>The file format, physical medium,<br> or dimensions of the resource.</td>
+                        <td>format</td>
+                        <td>format</td>
+                        <td>format</td>
+                        <td>format</td>
+                        <td>physical description</td>
                         <td>/</td>
-                        <td>3.1 Scope and Content</td>
-                        <td>&lt;scopecontent&gt;</td>
-                        <td>/</td>
-                        <td>&lt;subject&gt;</td>
-                        <td>crm:P62_depicts / crm:P129_is_about</td>
-                        <td>schema:about</td>
-                        <td>/</td>
+                        <td>format</td>
+                        <td>E57 Material</td>
+                        <td>rdae:P20260</td>
+                        <td>physicalDataType,<br>
+                          materialType,<br>
+                          dimentionsType, speed, stockBrand
+                          </td>
                       </tr>
                       <tr>
-                        <td>Has type</td>
-                        <td>dc:type</td>
-                        <td>&lt;tracktype&gt;</td>
+                        <td>An unambiguous reference to the resource within a given context.</td>
+                        <td>Identifier</td>
+                        <td>id</td>
+                        <td>release id</td>
+                        <td>identifier</td>
+                        <td>identifier</td>
+                        <td>identificationInfo.citation.identifier.code</td>
                         <td>/</td>
-                        <td>&lt;genreform&gt;</td>
-                        <td>336$a Content type term</td>
-                        <td>&lt;typeOfResource&gt;</td>
-                        <td>crm:P2_has_type</td>
-                        <td>schema:additionalType</td>
-                        <td>Object Type</td>
+                        <td>E42 Identifier</td>
+                        <td>rdae:P20002</td>
+                        <td>primaryIdentifier</td>
                       </tr>
                       <tr>
-                        <td>Has dimension</td>
-                        <td>dcterms:spatial</td>
+                        <td>A language of the resource.</td>
+                        <td></td>
                         <td>/</td>
-                        <td>2.5 Extent</td>
-                        <td>&lt;dimensions&gt;</td>
-                        <td>300$c Dimensions / 340$b Dimensions</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
                         <td>/</td>
-                        <td>crm:P43_has_dimension</td>
-                        <td>schema:size</td>
-                        <td>Specific Media Type (Dimension)</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
                       </tr>
                       <tr>
-                        <td>Made for</td>
+                        <td>An account of the resource.</td>
                         <td>/</td>
                         <td>/</td>
-                        <td>3.1 Scope and Content</td>
-                        <td>&lt;odd&gt;</td>
+                        <td></td>
+                        <td></td>
                         <td>/</td>
                         <td>/</td>
                         <td>/</td>
                         <td>/</td>
-                        <td>Function and Use</td>
+                        <td></td>
                       </tr>
                       <tr>
-                        <td>Used for</td>
+                        <td>A related resource.</td>
                         <td>/</td>
                         <td>/</td>
-                        <td>3.1 Scope and Content</td>
-                        <td>&lt;odd&gt;</td>
+                        <td></td>
+                        <td></td>
                         <td>/</td>
                         <td>/</td>
-                        <td>crm:P19_was_intended_use_of</td>
+                        <td></td>
                         <td>/</td>
-                        <td>Function and Use</td>
+                        <td></td>
                       </tr>
                       <tr>
-                        <td>Has material</td>
-                        <td>dcterms:medium</td>
+                        <td>A non-persistent, time-based occurrence.</td>
+                        <td></td>
                         <td>/</td>
-                        <td>2.5 Extent</td>
-                        <td>&lt;did&gt; / &lt;materialspec&gt;</td>
-                        <td>300$b Other physical detail / 340$a Material base and configuration</td>
-                        <td>&lt;physicalDescription&gt; / &lt;form&gt;</td>
-                        <td>crm:P45_consists_of</td>
-                        <td>schema:material</td>
-                        <td>/</td>
-                      </tr>
-                      <tr>
-                        <td>Has duration</td>
-                        <td>dcterms:extent</td>
-                        <td>&lt;duration&gt;</td>
-                        <td>2.5 Extent</td>
-                        <td>&lt;odd&gt;</td>
-                        <td>306$a Playing time</td>
-                        <td>/</td>
-                        <td>/</td>
-                        <td>schema:duration</td>
-                        <td>/</td>
-                      </tr>
-                      <tr>
-                        <td>Has genre</td>
-                        <td>/</td>
-                        <td>&lt;genrelist&gt; / &lt;genre&gt;</td>
-                        <td>/</td>
-                        <td>&lt;genreform&gt;</td>
-                        <td>/</td>
-                        <td>&lt;hasGenre&gt;</td>
-                        <td>/</td>
-                        <td>schema:genre</td>
-                        <td>/</td>
-                      </tr>
-                      <tr>
-                        <td>Has episode / Is part of</td>
-                        <td>dcterms:hasPart / dcterms:isPartOf</td>
-                        <td>&lt;tracklist&gt; / &lt;track&gt;</td>
-                        <td>/</td>
-                        <td>&lt;c&gt;</td>
-                        <td>/</td>
-                        <td>&lt;part&gt;</td>
-                        <td>crm:P148_has_component</td>
-                        <td>schema:isPartOf</td>
-                        <td>/</td>
-                      </tr>
-                      <tr>
-                        <td>Occurred during</td>
-                        <td>dcterms:isPartOf</td>
-                        <td>/</td>
-                        <td>3.1 Scope and Content</td>
-                        <td>&lt;chronitem&gt; / &lt;event&gt;</td>
-                        <td>/</td>
-                        <td>&lt;part&gt;</td>
-                        <td>/</td>
-                        <td>schema:temporalCoverage</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
                         <td>/</td>
                       </tr>
                     </tbody>
