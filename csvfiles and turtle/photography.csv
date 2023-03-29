@@ -1,10 +1,16 @@
 Subject,predicate,object
-John Lennon; Paul McCartney, dcterms: type, photo, 
-John Lennon; Paul McCartney, dcterms: created, <1968>	
-John Lennon; Paul McCartney, dcterms: creator, Linda McCartney	
-John Lennon; Paul McCartney, schema: about, John Lennon	
-John Lennon; Paul McCartney, schema: about, Paul McCartney	
-John Lennon; Paul McCartney, crm:P43 has dimension, 18 1/4 in. x 12 3/8 in. (465 mm x 315 mm)
-John Lennon; Paul McCartney, dcterms: isReferencedBy, John Lennon; Paul McCartney
+John & Paul photo, dcterms:type, photo, 
+John & Paul photo, dcterms:created, <1968>	
+John & Paul photo, dcterms:creator, Linda McCartney	
+John & Paul photo, schema:about,John Lennon	
+John & Paul photo, schema: about,Paul McCartney	
+John & Paul photo, crm:P43 has_dimension, 18 1/4 in. x 12 3/8 in. (465 mm x 315 mm)
+John & Paul photo, crm:P49_has_former_or_current keeper, National Portrait Gallery
+John & Paul photo, crm:P102_has_title, John Lennon; Paul McCartney
+John & Paul photo, crm:P48_has_preferred_identifier, NPG x 128734 
 Linda McCartney, dbp: spouse, Paul McCartney
+George Martin, mo: produced, Let it be
+George Martin, schema: actor, Let it be (film)
+George Martin, dcterms:contributor, The Beatles: get back
+
 

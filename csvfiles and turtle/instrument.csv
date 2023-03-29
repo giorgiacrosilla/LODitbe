@@ -1,11 +1,12 @@
 Subject, predicate, object
-500/1 "Violin” Bass, crm: P43 has dimension, Length: ~42 in. (106.7 cm) Width: 10 3/4 in. (27.3 cm) Depth: ~1 3/4 in. (4.4 cm) Weight: ~5 lbs. (2.2 kg)
-500/1 "Violin” Bass, rdf:type, instrument
-500/1 "Violin” Bass, dcterms:creator, Höfner Gmbh & Co. 	
-500/1 "Violin” Bass, dcterms: created, <1962>			
-500/1 "Violin” Bass, crm: P45 consists of, "Spruce, maple, rosewood, ebony, metal, pearloid, plastic"
-500/1 "Violin” Bass, mo: interpreter, Paul McCartney				
-500/1 "Violin” Bass, mo: usedInPerformance, The Beatles Rooftop concert		
-500/1 "Violin” Bass, mo: usedInRecording, Let it be
-500/1 "Violin” Bass, vgo:isItemIn, The Beatles: Rock Band
-500/1 "Violin” Bass, schema: actor, Let It Be (film)
+Paul's bass, crm: P43 has dimension, Length: ~42 in. (106.7 cm) Width: 10 3/4 in. (27.3 cm) Depth: ~1 3/4 in. (4.4 cm) Weight: ~5 lbs. (2.2 kg)
+Paul's bass, rdf:type, instrument
+Paul's bass, dcterms:creator, Höfner Gmbh & Co. 	
+Paul's bass, dcterms: created, <1962>			
+Paul's bass, crm: P45_consists_of, "Spruce, maple, rosewood, ebony, metal, pearloid, plastic"
+Paul's bass, mo: interpreter, Paul McCartney				
+Paul's bass, mo: usedInPerformance, The Beatles Rooftop concert		
+Paul's bass, mo: usedInRecording, Let it be
+Paul's bass, vgo:isItemIn, The Beatles: Rock Band
+Paul's bass, schema: actor, Let It Be (film)
+Paul's bass, crm:P102_has_title, 500/1 "Violin Bass”
