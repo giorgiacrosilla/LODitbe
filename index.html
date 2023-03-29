@@ -394,118 +394,481 @@
           <p>Metadata alignment</p>
         </div>
 
-        <div class="row">
-          <div class="col-lg-12 d-flex justify-content-center">
-            <ul id="menu-flters">
-              <li data-filter="*" class="filter-active">Who</li>
-              <li data-filter=".filter-starters">When</li>
-              <li data-filter=".filter-salads">Where</li>
-              <li data-filter=".filter-specialty">What</li>
-            </ul>
-          </div>
-        </div>
+        <div class="container-bcontent">
+          <ul class="nav nav-tabs nav-justified mb-4" id="tabs" role="tablist">
+            <li class="nav-item" data-aos="zoom-in">
+              <a class="nav-link active show" data-bs-toggle="tab" href="#who">
+                <h4>Who</h4>
+              </a>
+            </li>
+            <li class="nav-item" data-aos="zoom-in">
+              <a class="nav-link" data-bs-toggle="tab" href="#where">
+                <h4>Where<h4>
+              </a>
+            </li>
+            <li class="nav-item" data-aos="zoom-in">
+              <a class="nav-link" data-bs-toggle="tab" href="#when">
+                <h4>When</h4>
+              </a>
+            </li>
+            <li class="nav-item" data-aos="zoom-in">
+              <a class="nav-link" data-bs-toggle="tab" href="#what">
+                <h4>What</h4>
+              </a>
+            </li>
+          </ul><br>
 
-        <div class="row menu-container">
-          <div class=" menu-item filter-active">
-            <div class="section-table">
-              <div class="table-container">
-                <table id="mytable">
-                  <thead>
-                    <tr>
-                      <th>Natural language</th>
-                      <th>DCTerms</th>
-                      <th>MMD</th>
-                      <th>DDS XML Schema</th>
-                      <th>Ontology for<br> Media Resources</th>
-                      <th>IPTC</th>
-                      <th>ISO 19115</th>
-                      <th>schema.org</th>
-                      <th>CIDOC-CRM</th>
-                      <th>RDA</th>
-                      <th>Library of Congress <br>Technical Metadata for<br> Audio XML Schema</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td>An entity responsible for<br> making the resource.</td>
-                      <td>Creator</td>
-                      <td>artist</td>
-                      <td>artist</td>
-                      <td>creator</td>
-                      <td>creator, Image Creator</td>
-                      <td>bleParty[role='author'].party.name<br> or
-                        identificationInfo.citation.<br>citedResponsibleParty<br>[role='originator'].party.name</td>
-                      <td>creator, author, director, <br>developer, composer, lyricist</td>
-                      <td>/</td>
-                      <td>rdaw:P10005, rdaw:P10008</td>
-                      <td>/</td>
-                    </tr>
-                    <tr>
-                      <td>An entity responsible for making<br> contributions to the resource.</td>
-                      <td>Contributor</td>
-                      <td>/</td>
-                      <td>extraArtists</td>
-                      <td>contributor</td>
-                      <td>contributor</td>
-                      <td>identificationInfo.citation.<br>citedResponsibleParty='principalInvestigator'<br> or role
-                        [not(role='author' or role='originator')].party.name</td>
-                      <td>contributor, editor</td>
-                      <td>/</td>
-                      <td>rdae:P20011, rdae:P20012, rdae:P20013</td>
-                      <td>/</td>
-                    </tr>
-                    <tr>
-                      <td>A statement of any changes in ownership<br> and custody of the resource since its creation<br>
-                        that are significant for its authenticity,<br> integrity, and interpretation.</td>
-                      <td>Provenance</td>
-                      <td>/</td>
-                      <td>/</td>
-                      <td>/</td>
-                      <td>Source</td>
-                      <td>/</td>
-                      <td>/</td>
-                      <td>E10 Transfer of Custody</td>
-                      <td>/</td>
-                      <td>/</td>
-                    </tr>
-                    <tr>
-                      <td>An entity responsible for<br> making the resource available.</td>
-                      <td>Publisher</td>
-                      <td>label</td>
-                      <td>label name</td>
-                      <td>publisher</td>
-                      <td>/</td>
-                      <td>identificationInfo.citation.cited<br>ResponsibleParty[role='editor'].party.name</td>
-                      <td>publisher</td>
-                      <td>/</td>
-                      <td>rdam:P30067, rdam:P30068</td>
-                      <td>/</td>
-                    </tr>
-                  </tbody>
-                </table>
+
+          <div class="tab-content" data-aos="fade-up">
+
+            <!-- Who table -->
+
+            <div class="tab-pane show active" class="justify-content-md-center" id="who" role="tabpanel">
+              <div class="section-table">
+                <div class="table-container">
+                  <table>
+                    <thead>
+                      <tr>
+                        <th>Natural language</th>
+                        <th>DCTerms</th>
+                        <th>MMD</th>
+                        <th>DDS XML Schema</th>
+                        <th>Ontology for<br> Media Resources</th>
+                        <th>IPTC</th>
+                        <th>ISO 19115</th>
+                        <th>schema.org</th>
+                        <th>CIDOC-CRM</th>
+                        <th>RDA</th>
+                        <th>Library of Congress <br>Technical Metadata for<br> Audio XML Schema</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>An entity responsible for<br> making the resource.</td>
+                        <td>Creator</td>
+                        <td>artist</td>
+                        <td>artist</td>
+                        <td>creator</td>
+                        <td>creator, Image Creator</td>
+                        <td>bleParty[role='author'].party.name<br> or
+                          identificationInfo.citation.<br>citedResponsibleParty<br>[role='originator'].party.name</td>
+                        <td>creator, author, director, <br>developer, composer, lyricist</td>
+                        <td>/</td>
+                        <td>rdaw:P10005, rdaw:P10008</td>
+                        <td>/</td>
+                      </tr>
+                      <tr>
+                        <td>An entity responsible for making<br> contributions to the resource.</td>
+                        <td>Contributor</td>
+                        <td>/</td>
+                        <td>extraArtists</td>
+                        <td>contributor</td>
+                        <td>contributor</td>
+                        <td>identificationInfo.citation.<br>citedResponsibleParty='principalInvestigator'<br> or role
+                          [not(role='author' or role='originator')].party.name</td>
+                        <td>contributor, editor</td>
+                        <td>/</td>
+                        <td>rdae:P20011, rdae:P20012, rdae:P20013</td>
+                        <td>/</td>
+                      </tr>
+                      <tr>
+                        <td>A statement of any changes in ownership<br> and custody of the resource since its creation<br>
+                          that are significant for its authenticity,<br> integrity, and interpretation.</td>
+                        <td>Provenance</td>
+                        <td>/</td>
+                        <td>/</td>
+                        <td>/</td>
+                        <td>Source</td>
+                        <td>/</td>
+                        <td>/</td>
+                        <td>E10 Transfer of Custody</td>
+                        <td>/</td>
+                        <td>/</td>
+                      </tr>
+                      <tr>
+                        <td>An entity responsible for<br> making the resource available.</td>
+                        <td>Publisher</td>
+                        <td>label</td>
+                        <td>label name</td>
+                        <td>publisher</td>
+                        <td>/</td>
+                        <td>identificationInfo.citation.cited<br>ResponsibleParty[role='editor'].party.name</td>
+                        <td>publisher</td>
+                        <td>/</td>
+                        <td>rdam:P30067, rdam:P30068</td>
+                        <td>/</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
               </div>
             </div>
-          </div>
-          <div class=" menu-item filter-starters">
-            <div class="section-table">
-              <div class="table-container">
-                <table id="mytable">
-                  <thead>
-                    <tr>
-                      <th>Natural language</th>
-                      <th>DCTerms</th>
-                      <th>MMD</th>
-                      <th>DDS XML Schema</th>
-                      <th>Ontology for<br> Media Resources</th>
-                      <th>IPTC</th>
-                      <th>ISO 19115</th>
-                      <th>schema.org</th>
-                      <th>CIDOC-CRM</th>
-                      <th>RDA</th>
-                      <th>Library of Congress <br>Technical Metadata for<br> Audio XML Schema</th>
-                    </tr>
-                  </thead>
-                </table>
+
+
+            <!-- Where table -->
+            <div class="tab-pane" class="justify-content-md-center" id="when" role="tabpanel">
+              <div class="section-table">
+                <div class="table-container">
+                  <table>
+                    <thead>
+                      <tr>
+                        <th>Property</th>
+                        <th>DC/DCterms</th>
+                        <th>MMD</th>
+                        <th>DACS</th>
+                        <th>EAD</th>
+                        <th>Marc21</th>
+                        <th>MODS</th>
+                        <th>CIDOC-CRM</th>
+                        <th>Schema</th>
+                        <th>LCDRG</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Publisher</td>
+                        <td>dc:publisher</td>
+                        <td>&lt;label&gt;</td>
+                        <td>/</td>
+                        <td>&lt;did&gt; / &lt;repository&gt; </td>
+                        <td>260$b Name of publisher</td>
+                        <td>&lt;originInfo&gt; / &lt;publisher&gt;</td>
+                        <td>/</td>
+                        <td>schema:publisher</td>
+                        <td>/</td>
+                      </tr>
+                      <tr>
+                        <td>Contributor</td>
+                        <td>dc:contributor</td>
+                        <td>&lt;name&gt; / &lt;namePart&gt;</td>
+                        <td>2.6 Name of Creator(s)</td>
+                        <td>&lt;relation&gt; / &lt;sponsor&gt;</td>
+                        <td>/</td>
+                        <td>&lt;name&gt; / &lt;role&gt; / &th;roleTerm&gt;</td>
+                        <td>crm:P11_had_participant</td>
+                        <td>schema:contributor</td>
+                        <td>Personal Contributor</td>
+                      </tr>
+                      <tr>
+                        <td>Author</td>
+                        <td>dc:creator</td>
+                        <td>/</td>
+                        <td>2.6 Name of Creator(s)</td>
+                        <td>/</td>
+                        <td>100 1 $a Personal Name</td>
+                        <td>&lt;name&gt; / &lt;role&gt; / &lt;roleTerm&gt;</td>
+                        <td>/</td>
+                        <td>schema:author</td>
+                        <td>Creating individual</td>
+                      </tr>
+                      <tr>
+                        <td>Worn by</td>
+                        <td>/</td>
+                        <td>/</td>
+                        <td>2.7 Administrative / Biographical History</td>
+                        <td>/</td>
+                        <td>/</td>
+                        <td>/</td>
+                        <td>crm:P19_was_intended_use_of</td>
+                        <td>/</td>
+                        <td>/</td>
+                      </tr>
+                      <tr>
+                        <td>Created by</td>
+                        <td>dc:creator</td>
+                        <td>&lt;artist&gt; / &lt;name&gt;</td>
+                        <td>2.6 Name of Creator(s)</td>
+                        <td>&lt;origination&gt;</td>
+                        <td>/</td>
+                        <td>&lt;name&gt; / &lt;role&gt; / &lt;roleTerm&gt;</td>
+                        <td>crm:P108_was_produced_by</td>
+                        <td>schema:creator</td>
+                        <td>Creating individual</td>
+                      </tr>
+                      <tr>
+                        <td>Spoken by</td>
+                        <td>/</td>
+                        <td>/</td>
+                        <td>2.7 Administrative / Biographical History</td>
+                        <td>/</td>
+                        <td>/</td>
+                        <td>/</td>
+                        <td>/</td>
+                        <td>/</td>
+                        <td>/</td>
+                      </tr>
+                      <tr>
+                        <td>Had participant</td>
+                        <td>dc:contributor</td>
+                        <td>/</td>
+                        <td>2.6 Name of Creator(s)</td>
+                        <td>&lt;relation&gt;</td>
+                        <td>/</td>
+                        <td>&lt;name&gt; / &lt;role&gt; / &lt;roleTerm&gt;</td>
+                        <td>crm:P11_had_participant</td>
+                        <td>schema:participant</td>
+                        <td>/</td>
+                      </tr>
+                      <tr>
+                        <td>Carried out by</td>
+                        <td>dc:creator</td>
+                        <td>&lt;artist&gt; / &lt;name&gt;</td>
+                        <td>2.6 Name of Creator(s)</td>
+                        <td>&lt;biohist&gt;</td>
+                        <td>/</td>
+                        <td>&lt;name&gt; / &lt;role&gt; / &lt;roleTerm&gt;</td>
+                        <td>crm:P14_carried_out_by</td>
+                        <td>/</td>
+                        <td>Creating Individual</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <!-- When table -->
+            <div class="tab-pane" class="justify-content-md-center" id="where" role="tabpanel">
+              <div class="section-table">
+                <div class="table-container">
+                  <table>
+                    <thead>
+                      <tr>
+                        <th>Property</th>
+                        <th>DC/DCterms</th>
+                        <th>MMD</th>
+                        <th>DACS</th>
+                        <th>EAD</th>
+                        <th>Marc21</th>
+                        <th>MODS</th>
+                        <th>CIDOC-CRM</th>
+                        <th>Schema</th>
+                        <th>LCDRG</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Publication date</td>
+                        <td>dcterms:issued</td>
+                        <td>&lt;release&gt; / &lt;date&gt;</td>
+                        <td>2.4.3 Date</td>
+                        <td>&lt;unitdate&gt;</td>
+                        <td>260$c Date of Publication</td>
+                        <td>&lt;originInfo&gt; / &lt;dateIssued&gt;</td>
+                        <td>crm:P4_has_time_span</td>
+                        <td>schema:datePublished</td>
+                        <td>Release Date</td>
+                      </tr>
+                      <tr>
+                        <td>Set in</td>
+                        <td>dc:date</td>
+                        <td>/</td>
+                        <td>2.4.7 Date Ranges</td>
+                        <td>&lt;daterange&gt; / &lt;unitdate&gt;</td>
+                        <td>/</td>
+                        <td>&lt;originInfo&gt; / &lt;dateOther&gt;</td>
+                        <td>crm:P81_ongoing_throughout</td>
+                        <td>schema:contentReferenceTime</td>
+                        <td>/</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+
+            <!-- What table -->
+            <div class="tab-pane" class="justify-content-md-center" id="what" role="tabpanel">
+              <div class="section-table">
+                <div class="table-container">
+                  <table>
+                    <thead>
+                      <tr>
+                        <th>Property</th>
+                        <th>DC/DCterms</th>
+                        <th>MMD</th>
+                        <th>DACS</th>
+                        <th>EAD</th>
+                        <th>Marc21</th>
+                        <th>MODS</th>
+                        <th>CIDOC-CRM</th>
+                        <th>Schema</th>
+                        <th>LCDRG</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Has id</td>
+                        <td>dc:identifier</td>
+                        <td>&lt;trackid&gt;</td>
+                        <td>2.1.3 Local Identifier</td>
+                        <td>&lt;unitid&gt;</td>
+                        <td>/</td>
+                        <td>&lt;identifier&gt;</td>
+                        <td>crm:P1_is_identified_by</td>
+                        <td>schema:identifier</td>
+                        <td>Object Identifier</td>
+                      </tr>
+                      <tr>
+                        <td>Has format</td>
+                        <td>dc:format / dcterms:hasFormat</td>
+                        <td>&lt;trackformat&gt;</td>
+                        <td>2.5 Extent</td>
+                        <td>&lt;genreform&gt;</td>
+                        <td>/</td>
+                        <td>&lt;typeOfResource&gt;</td>
+                        <td>/</td>
+                        <td>schema:encodingFormat</td>
+                        <td>Media Type (Format)</td>
+                      </tr>
+                      <tr>
+                        <td>Has title</td>
+                        <td>dc:title</td>
+                        <td>&lt;release&gt; / &lt;title&gt;</td>
+                        <td>2.3 Title</td>
+                        <td>&lt;title&gt;</td>
+                        <td>245 $a Title</td>
+                        <td>&lt;titleInfo&gt;</td>
+                        <td>crm:P102_has_title</td>
+                        <td>schema:name</td>
+                        <td>Title</td>
+                      </tr>
+                      <tr>
+                        <td>Language</td>
+                        <td>dc:language</td>
+                        <td>&lt;work&gt; / &lt;language-list&gt; / &lt;language&gt; /
+                          &lt;text-representationlanguage&gt;
+                        </td>
+                        <td>4.5.2 Languages and Scripts of the Material</td>
+                        <td>&lt;language&gt;</td>
+                        <td>41 Language code</td>
+                        <td>&lt;language&gt;</td>
+                        <td>crm:P72_has_language</td>
+                        <td>schema:inLanguage</td>
+                        <td>Language</td>
+                      </tr>
+                      <tr>
+                        <td>Has subject</td>
+                        <td>dc:subject</td>
+                        <td>/</td>
+                        <td>3.1 Scope and Content</td>
+                        <td>&lt;scopecontent&gt;</td>
+                        <td>/</td>
+                        <td>&lt;subject&gt;</td>
+                        <td>crm:P62_depicts / crm:P129_is_about</td>
+                        <td>schema:about</td>
+                        <td>/</td>
+                      </tr>
+                      <tr>
+                        <td>Has type</td>
+                        <td>dc:type</td>
+                        <td>&lt;tracktype&gt;</td>
+                        <td>/</td>
+                        <td>&lt;genreform&gt;</td>
+                        <td>336$a Content type term</td>
+                        <td>&lt;typeOfResource&gt;</td>
+                        <td>crm:P2_has_type</td>
+                        <td>schema:additionalType</td>
+                        <td>Object Type</td>
+                      </tr>
+                      <tr>
+                        <td>Has dimension</td>
+                        <td>dcterms:spatial</td>
+                        <td>/</td>
+                        <td>2.5 Extent</td>
+                        <td>&lt;dimensions&gt;</td>
+                        <td>300$c Dimensions / 340$b Dimensions</td>
+                        <td>/</td>
+                        <td>crm:P43_has_dimension</td>
+                        <td>schema:size</td>
+                        <td>Specific Media Type (Dimension)</td>
+                      </tr>
+                      <tr>
+                        <td>Made for</td>
+                        <td>/</td>
+                        <td>/</td>
+                        <td>3.1 Scope and Content</td>
+                        <td>&lt;odd&gt;</td>
+                        <td>/</td>
+                        <td>/</td>
+                        <td>/</td>
+                        <td>/</td>
+                        <td>Function and Use</td>
+                      </tr>
+                      <tr>
+                        <td>Used for</td>
+                        <td>/</td>
+                        <td>/</td>
+                        <td>3.1 Scope and Content</td>
+                        <td>&lt;odd&gt;</td>
+                        <td>/</td>
+                        <td>/</td>
+                        <td>crm:P19_was_intended_use_of</td>
+                        <td>/</td>
+                        <td>Function and Use</td>
+                      </tr>
+                      <tr>
+                        <td>Has material</td>
+                        <td>dcterms:medium</td>
+                        <td>/</td>
+                        <td>2.5 Extent</td>
+                        <td>&lt;did&gt; / &lt;materialspec&gt;</td>
+                        <td>300$b Other physical detail / 340$a Material base and configuration</td>
+                        <td>&lt;physicalDescription&gt; / &lt;form&gt;</td>
+                        <td>crm:P45_consists_of</td>
+                        <td>schema:material</td>
+                        <td>/</td>
+                      </tr>
+                      <tr>
+                        <td>Has duration</td>
+                        <td>dcterms:extent</td>
+                        <td>&lt;duration&gt;</td>
+                        <td>2.5 Extent</td>
+                        <td>&lt;odd&gt;</td>
+                        <td>306$a Playing time</td>
+                        <td>/</td>
+                        <td>/</td>
+                        <td>schema:duration</td>
+                        <td>/</td>
+                      </tr>
+                      <tr>
+                        <td>Has genre</td>
+                        <td>/</td>
+                        <td>&lt;genrelist&gt; / &lt;genre&gt;</td>
+                        <td>/</td>
+                        <td>&lt;genreform&gt;</td>
+                        <td>/</td>
+                        <td>&lt;hasGenre&gt;</td>
+                        <td>/</td>
+                        <td>schema:genre</td>
+                        <td>/</td>
+                      </tr>
+                      <tr>
+                        <td>Has episode / Is part of</td>
+                        <td>dcterms:hasPart / dcterms:isPartOf</td>
+                        <td>&lt;tracklist&gt; / &lt;track&gt;</td>
+                        <td>/</td>
+                        <td>&lt;c&gt;</td>
+                        <td>/</td>
+                        <td>&lt;part&gt;</td>
+                        <td>crm:P148_has_component</td>
+                        <td>schema:isPartOf</td>
+                        <td>/</td>
+                      </tr>
+                      <tr>
+                        <td>Occurred during</td>
+                        <td>dcterms:isPartOf</td>
+                        <td>/</td>
+                        <td>3.1 Scope and Content</td>
+                        <td>&lt;chronitem&gt; / &lt;event&gt;</td>
+                        <td>/</td>
+                        <td>&lt;part&gt;</td>
+                        <td>/</td>
+                        <td>schema:temporalCoverage</td>
+                        <td>/</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
               </div>
             </div>
           </div>
@@ -681,7 +1044,9 @@
                     </tr>
                   </tbody>
                 </table>
-                <p><a href="https://github.com/giorgiacrosilla/loditbe.github.io/blob/c6d04e1f94eed9e41987523bde7ac358be2fd124/csvfiles and turtle/song.csv">SEE THE ORIGINAL CSV FILE</a></p>
+                <p><a
+                    href="https://github.com/giorgiacrosilla/loditbe.github.io/blob/c6d04e1f94eed9e41987523bde7ac358be2fd124/csvfiles and turtle/song.csv">SEE
+                    THE ORIGINAL CSV FILE</a></p>
               </div>
             </div>
           </div>
