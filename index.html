@@ -392,22 +392,21 @@
         <div class="section-title">
           <p>Metadata alignment</p>
         </div>
-
         <div class="container-bcontent">
           <ul class="nav mb-4" id="tabs" role="tablist">
             <li class="nav-item" data-aos="zoom-in">
               <a class="nav-link active show" data-bs-toggle="tab" href="#who">
-                <h4 style="font-size: 20px";>Who</h4>
-              </a>
-            </li>
-            <li class="nav-item" data-aos="zoom-in">
-              <a class="nav-link" data-bs-toggle="tab" href="#where">
-                <h4 style="font-size: 20px">Where<h4>
+                <h4 style="font-size: 20px">Who</h4>
               </a>
             </li>
             <li class="nav-item" data-aos="zoom-in">
               <a class="nav-link" data-bs-toggle="tab" href="#when">
-                <h4 style="font-size: 20px">When</h4>
+                <h4 style="font-size: 20px">When<h4>
+              </a>
+            </li>
+            <li class="nav-item" data-aos="zoom-in">
+              <a class="nav-link" data-bs-toggle="tab" href="#where">
+                <h4 style="font-size: 20px">Where</h4>
               </a>
             </li>
             <li class="nav-item" data-aos="zoom-in">
@@ -501,15 +500,13 @@
                 </div>
               </div>
             </div>
-
-
-            <!-- Where table -->
             <div class="tab-pane" class="justify-content-md-center" id="when" role="tabpanel">
               <div class="section-table">
                 <div class="table-container">
                   <table>
                     <thead>
-                      <th>Natural language</th>
+                      <tr>
+                        <th>Natural language</th>
                         <th>DCTerms</th>
                         <th>MMD</th>
                         <th>DDS XML Schema</th>
@@ -535,14 +532,15 @@
                           a
                           =’revision’]. date <br>
                           identificationInfo.citation.date[dateType / =’publication’].date
-                          </td>
+                        </td>
                         <td>datePublished</td>
                         <td>E4 Period</td>
                         <td>rdaa:P50039</td>
                         <td>objectCreationDate, <br>audioDataEncoding</td>
                       </tr>
                       <tr>
-                        <td>The spatial or temporal topic of the resource,<br> spatial applicability of the resource,<br> or jurisdiction under which the resource is relevant.</td>
+                        <td>The spatial or temporal topic of the resource,<br> spatial applicability of the
+                          resource,<br> or jurisdiction under which the resource is relevant.</td>
                         <td>Coverage</td>
                         <td>length, time, life-span</td>
                         <td>duration</td>
@@ -554,19 +552,18 @@
                         <td>rdaw:P10024</td>
                         <td>audioInfo</td>
                       </tr>
-                      </tbody>
-                    </table>
-                  </div>
+                    </tbody>
+                  </table>
                 </div>
               </div>
             </div>
-            <!-- When table -->
             <div class="tab-pane" class="justify-content-md-center" id="where" role="tabpanel">
               <div class="section-table">
                 <div class="table-container">
                   <table>
                     <thead>
-                      <th>Natural language</th>
+                      <tr>
+                        <th>Natural language</th>
                         <th>DCTerms</th>
                         <th>MMD</th>
                         <th>DDS XML Schema</th>
@@ -581,12 +578,14 @@
                     </thead>
                     <tbody>
                       <tr>
-                        <td>The spatial or temporal topic of the resource,<br> spatial applicability of the resource,<br> or jurisdiction under which the resource is relevant.</td>
+                        <td>The spatial or temporal topic of the resource,<br> spatial applicability of the
+                          resource,<br>
+                          or jurisdiction under which the resource is relevant.</td>
                         <td>Coverage</td>
                         <td>area</td>
                         <td>country</td>
                         <td>location</td>
-                        <td>Location Created, Location shown in the image</td>
+                        <td>Location Created, <br>Location shown in the image</td>
                         <td>identification.Info, Cited.Address,<br>
                           identification.Info, Cited.Country,<br>
                           identification.Info, Cited.PostalCode,<br>
@@ -602,14 +601,13 @@
                 </div>
               </div>
             </div>
-
-            <!-- What table -->
             <div class="tab-pane" class="justify-content-md-center" id="what" role="tabpanel">
               <div class="section-table">
                 <div class="table-container">
                   <table>
                     <thead>
-                      <th>Natural language</th>
+                      <tr>
+                        <th>Natural language</th>
                         <th>DCTerms</th>
                         <th>MMD</th>
                         <th>DDS XML Schema</th>
@@ -690,7 +688,7 @@
                         <td>physicalDataType,<br>
                           materialType,<br>
                           dimentionsType, speed, stockBrand
-                          </td>
+                        </td>
                       </tr>
                       <tr>
                         <td>An unambiguous reference to the resource within a given context.</td>
@@ -758,7 +756,6 @@
                 </div>
               </div>
             </div>
-          </div>
         </div>
       </div>
     </section>
@@ -1535,7 +1532,7 @@
           <p>Conceptual Model</p>
         </div>
     </section>
-  <!-- End Events Section -->
+    <!-- End Events Section -->
 
     <!-- ======= csv Section ======= -->
     <section id="g" class="menu section-bg">
