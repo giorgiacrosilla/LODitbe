@@ -190,6 +190,7 @@ h6 {
   white-space: nowrap;
   transition: 0.3s;
   font-size: 14px;
+  font-family: 'Playfair Display', serif;
 }
 
 .navbar a i,
@@ -811,7 +812,7 @@ section {
   top: -4px;
   z-index: 1;
   color: #bab3a6;
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-family: "Playfair Display", serif;;
 }
 
 .menu .menu-content a {
@@ -838,15 +839,19 @@ section {
 }
 
 .nav-item a{
-  color: white;
+  color: #aaaaaa;
   font-family: "Playfair Display", serif;
-  
 }
 
 .nav-item a:hover {
   color: #cda45e;
 }
 
+.nav-item a.active {
+  color: #1a1814;
+  background: #cda45e;
+  border-color: #cda45e;
+}
 
 .table {
   color: white;
@@ -855,6 +860,12 @@ section {
 
 .section-table .table-container {
   overflow-x: auto;
+
+}
+.section-table .table-container p {
+  overflow-x: auto;
+  text-align: center;
+  font-weight: bold;
 }
 
 .section-table .table-container table{
