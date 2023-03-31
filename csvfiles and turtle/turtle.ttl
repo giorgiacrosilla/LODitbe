@@ -1,4 +1,3 @@
-
 @prefix mo: <http://purl.org/ontology/mo/>.
 @prefix schema: <http://schema.org/>.
 @prefix dcterms: <http://purl.org/dc/terms/>.
@@ -22,14 +21,15 @@
     pmo:inspirationFor <https://www.w3.org/loditbe/Film/LetItBe>;
     pmo:inspirationFor <https://www.w3.org/loditbe/Book/GetBack>;
     mo:performance_Of <https://www.w3.org/loditbe/Work/LetItBe>;
-    dcterms:coverage <https://www.w3.org/loditbe/street/SavileRow>;
+    dcterms:coverage <https://www.w3.org/loditbe/location/SavileRow>;
     owl:sameAs wiki:11349248.
 
 <https://www.w3.org/loditbe/person/GeorgeMartin> a foaf:agent;
     rdfs:label "George Martin";
     mo:engineered <https://www.w3.org/loditbe/event/Rooftop>;
-    owl:sameAs viaf:100987436.
-    owl:sameAs wiki:Q191819.
+    owl:sameAs viaf:100987436;
+    owl:sameAs wiki:Q191819;
+    skos:broader "producer".
 <https://www.w3.org/loditbe/group/TheBeatles> a foaf:Group;
     rdfs:label "The Beatles";
     owl:sameAs viaf:141205608;
@@ -45,9 +45,3 @@
     rdfs:label "The Beatles Rock Band";
     owl:sameAs <https://www.igdb.com/games/the-beatles-rock-band>;
     owl:sameAs wiki:Q2036806.
-
-
-
-
-
-
