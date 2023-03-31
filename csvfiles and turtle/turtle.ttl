@@ -16,7 +16,7 @@
 <https://www.w3.org/loditbe/event/Rooftop> a mo:performance;
     mo:performer <https://www.w3.org/loditbe/group/TheBeatles>;
     mo:performer <https://www.w3.org/loditbe/person/BillyPreston>;
-    dcterms:date <30/01/1969>;
+    dcterms:date "30/01/1969";
     vgo:isEventinGame <https://www.w3.org/loditbe/Game/TheBeatlesRockBand>;
     pmo:inspirationFor <https://www.w3.org/loditbe/Film/LetItBe>;
     pmo:inspirationFor <https://www.w3.org/loditbe/Book/GetBack>;
