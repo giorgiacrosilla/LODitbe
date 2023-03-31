@@ -1,26 +1,18 @@
-#@prefix dc: <http://purl.org/dc/elements/1.1/>.
+
 @prefix mo: <http://purl.org/ontology/mo/>.
 @prefix schema: <http://schema.org/>.
-#@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
-#@prefix dbp: <http://dbpedia.org/property/>.
 @prefix dcterms: <http://purl.org/dc/terms/>.
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/>.
-#@prefix gn: <http://www.geonames.org/ontology#>.
 @prefix vgo: <http://purl.org/net/VideoGameOntology#>.
-#@prefix rico: <https://www.ica.org/standards/RiC/ontology#>.
-#@prefix provoc:<http://ns.inria.fr/provoc/>.
-#@prefix rdau: <http://rdaregistry.info/Elements/u/>.
-#@prefix ma: <http://www.w3.org/ns/ma-ont#>.
 @prefix lo: <https://w3id.org/italia/onto/CLV/>.
-#@prefix rda: <http://www.rdaregistry.info/>.
-#@prefix rdac: <http://rdaregistry.info/Elements/c/>.
-#@prefix rdai: <http://rdaregistry.info/Elements/i/>.
 @prefix pmo: <https://bioportal.bioontology.org/ontologies/PMO>.
-#@prefix aes: <https://www.loc.gov/standards/amdvmd/audioMD.xsd>.
 @prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix viaf: <http://viaf.org/viaf/>. 
+@prefix ulan: <http://vocab.getty.edu/ulan/>.
+@prefix wiki: <https://www.wikidata.org/wiki/>.
 
 <https://www.w3.org/loditbe/event/Rooftop> a mo:performance;
     mo:performer <https://www.w3.org/loditbe/group/TheBeatles>;
@@ -30,24 +22,29 @@
     pmo:inspirationFor <https://www.w3.org/loditbe/Film/LetItBe>;
     pmo:inspirationFor <https://www.w3.org/loditbe/Book/GetBack>;
     mo:performance_Of <https://www.w3.org/loditbe/Work/LetItBe>;
-    dcterms:coverage <https://www.w3.org/loditbe/SavileRow>.
+    dcterms:coverage <https://www.w3.org/loditbe/street/SavileRow>;
+    owl:sameAs wiki:11349248.
 
 <https://www.w3.org/loditbe/person/GeorgeMartin> a foaf:agent;
     rdfs:label "George Martin";
     mo:engineered <https://www.w3.org/loditbe/event/Rooftop>;
-    owl:sameAs <http://viaf.org/viaf/100987436>.
+    owl:sameAs viaf:100987436.
+    owl:sameAs wiki:Q191819.
 <https://www.w3.org/loditbe/group/TheBeatles> a foaf:Group;
     rdfs:label "The Beatles";
-    owl:sameAs <http://viaf.org/viaf/141205608>;
-    owl:sameAs <http://vocab.getty.edu/page/ulan/500372404>;
+    owl:sameAs viaf:141205608;
+    owl:sameAs ulan:500372404;
+    owl:sameAs wiki:Q1299;
     skos:broader "rock band".
 <https://www.w3.org/loditbe/location/SavileRow> a lo:address;
     rdfs:label "Savile Row";
-    owl:sameAs <http://viaf.org/viaf/315146363>;
+    owl:sameAs viaf:315146363;
+    owl:sameAs wiki:Q1631609;
     skos:broader "street".
 <https://www.w3.org/loditbe/Game/TheBeatlesRockBand> a schema:Videogame;
     rdfs:label "The Beatles Rock Band";
-    owl:sameAs <https://www.igdb.com/games/the-beatles-rock-band>.
+    owl:sameAs <https://www.igdb.com/games/the-beatles-rock-band>;
+    owl:sameAs wiki:Q2036806.
 
 
 
