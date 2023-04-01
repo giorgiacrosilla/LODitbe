@@ -27,6 +27,7 @@
 <https://www.w3.org/loditbe/person/GeorgeMartin> a foaf:agent;
     rdfs:label "George Martin";
     mo:engineered <https://www.w3.org/loditbe/event/Rooftop>;
+    schema:actor <https://www.w3.org/loditbe/Film/LetItBe>;
     owl:sameAs viaf:100987436;
     owl:sameAs wiki:Q191819;
     skos:broader "producer".
@@ -36,6 +37,11 @@
     owl:sameAs ulan:500372404;
     owl:sameAs wiki:Q1299;
     skos:broader "rock band".
+<https://www.w3.org/loditbe/person/BillyPreston> a foaf:agent;
+    rdfs:label "Billy Preston";
+    owl:sameAs viaf:51876386;
+    owl:sameAs wiki:Q311450;
+    skos:broader "musician".
 <https://www.w3.org/loditbe/location/SavileRow> a lo:address;
     rdfs:label "Savile Row";
     owl:sameAs viaf:315146363;
@@ -45,3 +51,6 @@
     rdfs:label "The Beatles Rock Band";
     owl:sameAs <https://www.igdb.com/games/the-beatles-rock-band>;
     owl:sameAs wiki:Q2036806.
+
+
+
