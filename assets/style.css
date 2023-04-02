@@ -431,10 +431,24 @@ h6 {
   width: 100%;
   height: 100vh;
   /* background: url("https://www.ondamusicale.it/wp-content/uploads/2018/01/Beatles-Rooftop-concert.jpg"); */
-  background: url("https://www.cinematographe.it/wp-content/uploads/2022/02/TheBeatles-Get-Back-roof-show-news.jpg");
+  background: url("https://www.cinematographe.it/wp-content/uploads/2022/02/TheBeatles-Get-Back-roof-show-news.jpg"); 
   background-size: cover;
   position: relative;
   padding: 0;
+}
+
+#hero * {
+  z-index:2;
+}
+
+#video {
+  position: absolute;
+  top: 0;
+  left: -50;
+  width: 100vw;
+  height: 100vh;
+  object-fit:cover;
+  z-index:1;
 }
 
 #hero:before {
@@ -785,7 +799,8 @@ section {
 
 .why-us .box:hover span,
 .why-us .box:hover h4,
-.why-us .box:hover p, a {
+.why-us .box:hover p, 
+.why-us .box:hover a {
   color: #fff;
 }
 
