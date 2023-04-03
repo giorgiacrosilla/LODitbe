@@ -1018,6 +1018,12 @@ th {
   }
 }
 
+.section-paragraph {
+  font-family: "Playfair Display", serif;
+  font-size: 18px;
+  text-align: justify;
+}
+
 /*--------------------------------------------------------------
 # Events
 --------------------------------------------------------------*/
@@ -1120,7 +1126,11 @@ th {
   background: #1a1814;
 }
 
-
+.section-paragraph {
+  font-style: "Playfair Display", serif;
+  font-size: 18px;
+  text-align: justify;
+}
 
 /*--------------------------------------------------------------
 # Footer
