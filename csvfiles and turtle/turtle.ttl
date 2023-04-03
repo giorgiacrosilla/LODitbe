@@ -1,0 +1,81 @@
+@prefix mo: <http://purl.org/ontology/mo/>.  
+@prefix schema: <http://schema.org/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix vgo: <http://purl.org/net/VideoGameOntology#>.
+@prefix lo: <https://w3id.org/italia/onto/CLV/>.
+@prefix pmo: <https://bioportal.bioontology.org/ontologies/PMO>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix viaf: <http://viaf.org/viaf/>. 
+@prefix ulan: <http://vocab.getty.edu/ulan/>.
+@prefix wiki: <https://www.wikidata.org/wiki/>.
+@prefix frbr: <http://purl.org/spar/frbr/core#>
+
+<https://www.w3.org/loditbe/event/Rooftop> a mo:performance;
+    mo:performer <https://www.w3.org/loditbe/group/TheBeatles>;
+    mo:performer <https://www.w3.org/loditbe/person/BillyPreston>;
+    dcterms:date "30/01/1969";
+    vgo:isEventinGame <https://www.w3.org/loditbe/Game/TheBeatlesRockBand>;
+    pmo:inspirationFor <https://www.w3.org/loditbe/Film/LetItBe>;
+    pmo:inspirationFor <https://www.w3.org/loditbe/Book/GetBack>;
+    mo:performance_Of <https://www.w3.org/loditbe/Work/LetItBe>;
+    dcterms:coverage <https://www.w3.org/loditbe/location/SavileRow>;
+    rdfs:label "Rooftop Concert";
+    owl:sameAs wiki:11349248.
+
+<https://www.w3.org/loditbe/person/GeorgeMartin> a foaf:agent;
+    rdfs:label "George Martin";
+    mo:engineered <https://www.w3.org/loditbe/event/Rooftop>;
+    schema:actor <https://www.w3.org/loditbe/Film/LetItBe>;
+    owl:sameAs viaf:100987436;
+    owl:sameAs wiki:Q191819;
+    skos:broader "producer".
+
+<https://www.w3.org/loditbe/group/TheBeatles> a foaf:Group;
+    rdfs:label "The Beatles";
+    owl:sameAs viaf:141205608;
+    owl:sameAs ulan:500372404;
+    owl:sameAs wiki:Q1299;
+    skos:broader "rock band".
+
+<https://www.w3.org/loditbe/person/BillyPreston> a foaf:agent;
+    rdfs:label "Billy Preston";
+    owl:sameAs viaf:51876386;
+    owl:sameAs wiki:Q311450;
+    skos:broader "musician".
+<https://www.w3.org/loditbe/location/SavileRow> a lo:address;
+    rdfs:label "Savile Row";
+    owl:sameAs viaf:315146363;
+    owl:sameAs wiki:Q1631609;
+    skos:broader "street";
+    gn:long "-0.140794";
+    gn:lat "51.511293";
+    gn:locationMap <https://www.w3.org/loditbe/location/SavileRow/map>;
+    gn:locatedIn <https://www.w3.org/loditbe/city/London>;
+    gn:parentCountry <https://www.w3.org/loditbe/country/UnitedKingdom>;
+
+<https://www.w3.org/loditbe/Game/TheBeatlesRockBand> a schema:Videogame;
+    rdfs:label "The Beatles Rock Band";
+    dcterms:publisher <https://www.w3.org/loditbe/Game/TheBeatlesRockBand/publisher/MTVGames>;
+    dcterms:creator <https://www.w3.org/loditbe/Game/TheBeatlesRockBand/creator/Harmonix>;
+    dcterms:identifier "IGDB 2693";
+    vgo:ReleaseDate "9/9/2009";
+    vgo:hasAchievementInGame <https://www.w3.org/loditbe/Game/TheBeatlesRockBand/achevement/LikeAMillion>;
+    vgo:hasGameGenre <https://www.w3.org/loditbe/Game/TheBeatlesRockBand/genre/rythmgame>;
+    vgo:inCharacter <https://www.w3.org/loditbe/group/TheBeatles>;
+    schema:ContentRating "PEGI 12";
+    a frbr:work;
+    owl:sameAs <https://www.igdb.com/games/the-beatles-rock-band>;
+    owl:sameAs wiki:Q2036806
+
+<https://www.w3.org/loditbe/company/AppleCorp> a foaf:organization;
+    rdfs:label "Apple Corp";
+    owl:sameAs viaf:141049849;
+    owl:sameAs wiki:Q621231;
+    gn:locatedIn <https://www.w3.org/loditbe/location/SavileRow>
+
+
+
