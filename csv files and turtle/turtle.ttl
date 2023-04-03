@@ -51,6 +51,7 @@
     owl:sameAs viaf:51876386;
     owl:sameAs wiki:Q311450;
     skos:broader "musician".
+
 <https://www.w3.org/loditbe/location/SavileRow> a lo:address;
     rdfs:label "Savile Row";
     owl:sameAs viaf:315146363;
