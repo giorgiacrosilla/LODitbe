@@ -12,7 +12,8 @@
 @prefix viaf: <http://viaf.org/viaf/>. 
 @prefix ulan: <http://vocab.getty.edu/ulan/>.
 @prefix wiki: <https://www.wikidata.org/wiki/>.
-@prefix frbr: <http://purl.org/spar/frbr/core#>
+@prefix frbr: <http://purl.org/spar/frbr/core#>.
+@prefix gn: <http://www.geonames.org/ontology#>.
 
 <https://www.w3.org/loditbe/event/Rooftop> a mo:performance;
     mo:performer <https://www.w3.org/loditbe/group/TheBeatles>;
@@ -55,7 +56,7 @@
     gn:lat "51.511293";
     gn:locationMap <https://www.w3.org/loditbe/location/SavileRow/map>;
     gn:locatedIn <https://www.w3.org/loditbe/city/London>;
-    gn:parentCountry <https://www.w3.org/loditbe/country/UnitedKingdom>;
+    gn:parentCountry <https://www.w3.org/loditbe/country/UnitedKingdom>.
 
 <https://www.w3.org/loditbe/Game/TheBeatlesRockBand> a schema:Videogame;
     rdfs:label "The Beatles Rock Band";
@@ -69,13 +70,13 @@
     schema:ContentRating "PEGI 12";
     a frbr:work;
     owl:sameAs <https://www.igdb.com/games/the-beatles-rock-band>;
-    owl:sameAs wiki:Q2036806
+    owl:sameAs wiki:Q2036806.
 
 <https://www.w3.org/loditbe/company/AppleCorp> a foaf:organization;
     rdfs:label "Apple Corp";
     owl:sameAs viaf:141049849;
     owl:sameAs wiki:Q621231;
-    gn:locatedIn <https://www.w3.org/loditbe/location/SavileRow>
+    gn:locatedIn <https://www.w3.org/loditbe/location/SavileRow>.
 
 
 
