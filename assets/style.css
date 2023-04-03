@@ -28,6 +28,7 @@
 #hero .btn-book:hover {
   background: #cda45e;
   color: #fff;
+  text-shadow: 1px 1px #000000;
 }
 
 #topbar {
